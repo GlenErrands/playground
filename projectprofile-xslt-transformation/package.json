@@ -1,0 +1,16 @@
+{
+  "name": "projectprofile-xslt-transformation",
+  "version": "0.0.1",
+  "description" : "Application reading a project profile in HTML via HTTP, transforms it into an export format and responds the result as a download.",
+  "author" : "Lars Gendner <lars_gendner@gmx.de>",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "request": "*",
+    "express": "3.2.6",
+    "jade": "*"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,12 @@
+extends layout
+
+block introduction
+  h1= title
+  p Welcome to #{title}.
+  
+block content
+  p Please enter the URL of a GULP profile and press "Transform".
+  form(method="POST", action="transformProfile")
+    input(type="text", name="profileName")
+    button(type="submit") Transform
+    
