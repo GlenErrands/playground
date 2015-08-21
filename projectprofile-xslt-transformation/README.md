@@ -2,7 +2,12 @@
 
 # projectprofile-xslt-transformation
 
+## Installation
 
+This project depends on node\_xslt, which in turn depends on `xml2-config`, on RHEL/CentOS provided by the package `libxslt-devel.x86_64`. Using `yum`, this can be installed using the following command:
+
+	yum install libxslt-devel.x86_64
+ 
 
 ## Usage
 

@@ -10,7 +10,9 @@
   "dependencies": {
     "request": "*",
     "express": "3.2.6",
-    "jade": "*"
+    "jade": "*",
+    "node_xslt" : "*",
+    "sanitize-html" : "*"
   },
   "license" : "MIT"
 }
