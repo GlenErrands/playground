@@ -12,7 +12,9 @@
     "express": "3.2.6",
     "jade": "*",
     "node_xslt" : "*",
-    "sanitize-html" : "*"
+    "sanitize-html" : "*",
+    "office-clippy" : "*",
+    "xml2js" : "*"
   },
   "license" : "MIT"
 }
